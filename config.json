@@ -1,0 +1,28 @@
+{
+  "potato": {
+    "model_url": "https://qckkqmrqadwbhofe.public.blob.vercel-storage.com/potato_model.h5",
+    "classes_path": "models/potato_classes.json",
+    "preprocessing_mode": "internal"
+  },
+  "tomato": {
+    "model_url": "https://qckkqmrqadwbhofe.public.blob.vercel-storage.com/tomato_model.h5",
+    "classes_path": "models/tomato_classes.json",
+    "preprocessing_mode": "internal"
+  },
+  "wheat": {
+    "model_path": "https://qckkqmrqadwbhofe.public.blob.vercel-storage.com/wheat_model.h5",
+    "classes_path": "models/wheat_classes.json",
+    "preprocessing_mode": "external",
+    "image_size": [255, 255],
+    "normalization_type": "scale_zero_one",
+    "color_channel_order": "RGB"
+  },
+  "rice": {
+    "model_path": "https://qckkqmrqadwbhofe.public.blob.vercel-storage.com/rice_model.h5",
+    "classes_path": "models/rice_classes.json",
+    "preprocessing_mode": "external",
+    "image_size": [150, 150],
+    "normalization_type": "scale_zero_one",
+    "color_channel_order": "RGB"
+  }
+}

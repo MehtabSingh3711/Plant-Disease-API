@@ -1,0 +1,7 @@
+{
+    "0" : "Tomato_Bacterial_spot",
+    "1" : "Tomato_Early_blight",
+    "2" : "Tomato_Late_blight",
+    "3" : "Tomato_Leaf_Mold",
+    "4" : "Tomato_healthy"
+}

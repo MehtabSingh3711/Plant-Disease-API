@@ -1,0 +1,18 @@
+# Ignore all TensorFlow/Keras model files
+*.h5
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+.venv/
+env/
+.env
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
